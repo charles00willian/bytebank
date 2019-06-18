@@ -17,8 +17,12 @@ public class CriaConta {
 		
 		System.out.println(segundaConta.agencia);
 		segundaConta.agencia = 146;
-		System.out.println("Agora a segunda conta está na agência "+ segundaConta.agencia);
+		System.out.println("Agora a segunda conta esta na agencia "+ segundaConta.agencia);
 		
-		
+		if(primeiraConta == segundaConta){
+			System.out.println("sÃ£o a mesma coisa");
+		}else{
+			System.out.println("nÃ£o sÃ£o a mesma coisa");
+		}
 	}
 }

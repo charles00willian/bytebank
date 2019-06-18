@@ -10,5 +10,13 @@ public class TesteReferecia {
 		
 		System.out.println("Saldo da segunda conta: " + segundaConta.saldo);
 		
+		segundaConta.saldo += 100;
+		System.out.println("Saldo da segunda conta: " + segundaConta.saldo);
+
+		System.out.println(primeiraConta.saldo);
+
+		if(primeiraConta == segundaConta){
+			System.out.println("são a mesma coisa");
+		}
 	}
 }
